@@ -26,8 +26,6 @@ Criar um projeto React que exiba uma página com o layout de uma imobiliária. O
 
 ![screenshot](./screenshot.png)
 
-> Substitua o arquivo `screenshot.png` pela imagem do seu projeto.
-
 ## 🚀 Como Rodar o Projeto
 
 1. Clone este repositório:
