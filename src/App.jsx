@@ -3,7 +3,7 @@ import './app.css'
 
 function App() {
   const [escolha, setEscolha] = useState('');
-  
+    
   return (
     <>
       <div className="titulo-container">
@@ -20,7 +20,7 @@ function App() {
       </div>
 
       {escolha && (
-        <h2 className='vermelho'>Você selecionou: {escolha}</h2>
+        <h2>Você selecionou: <span className='vermelho'>{escolha}</span></h2>
       )}
     </>
   )
