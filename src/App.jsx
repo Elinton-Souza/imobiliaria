@@ -14,9 +14,9 @@ function App() {
       <div className='linha'></div> {/* linha separadora */}
 
       <div className='imagens'>
-        <img src="./ap.png" alt="Apartamento" onClick={() => setEscolha('Apartamento')} />
-        <img src="./casa.png" alt="Casa" onClick={() => setEscolha('Casa')} />
-        <img src="./terreno.png" alt="Terreno" onClick={() => setEscolha('Terreno')} />
+        <img src="/ap.png" alt="Apartamento" onClick={() => setEscolha('Apartamento')} />
+        <img src="/casa.png" alt="Casa" onClick={() => setEscolha('Casa')} />
+        <img src="/terreno.png" alt="Terreno" onClick={() => setEscolha('Terreno')} />
       </div>
 
       {escolha && (
